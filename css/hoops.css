@@ -17,6 +17,7 @@ img{
 .map__image{
   width: 50%; 
   height: 30%; 
+  float: left;
 }
 
 .map__image path{
@@ -32,7 +33,7 @@ img{
 }
 
 .map__list{
-  width: 50%; 
+  width: 20%; 
   float: right;
 }
 
@@ -44,5 +45,11 @@ img{
 
 .map__list a:hover{
   color:#FC9515;
+}
+
+#carte{
+  width: 50%;
+  height: 450px;
+  float: right;
 }
 
